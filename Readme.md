@@ -10,8 +10,10 @@
 ---
 * Bird_verses_fish
 ```c
-This provides a description about the optical illusion caused by refraction at the interface of air and water.
- The optical illusion herein, resists one to locate the others right position with respect to itself.
- With this one can easily figure out the separation what the bird or the fish would face, the apparent separation, when provided with the real distances.
+This provides a description about the optical illusion caused by refraction at the interface
+of air and water.
+The optical illusion herein, resists one to locate the others right position with respect to itself.
+With this one can easily figure out the separation what the bird or the fish would face, 
+the apparent separation, when provided with the real distances.
  ```
 ![](file:///home/divya/Downloads/Bird_verses_Fish.png)
