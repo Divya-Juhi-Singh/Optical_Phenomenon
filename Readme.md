@@ -22,6 +22,16 @@ the apparent separation, when provided with the real distances.
 
 ### Here is a problem related to the topic:
 
-[*Bird_verses_fish*](https://github.com/Divya-Juhi-Singh/Optical_Phenomenon/blob/master/Bird_verses_fish.c)
+* Problem:
+```
+    A fish is swimming at some depth from the surface of an ocean.
+    Straight-way above, a bird is flying at some height from the surface.
+ i. At what total depth does the bird locates the fish, intendingto catch it? 
+ii. At what total height does the fish locates the bird in order to escape?
+    Provided the refractive index of air is 1.00 and that of water is 1.33.
+            
+```
+*The link for the solution is:*
 
+<a href ="https://github.com/Divya-Juhi-Singh/Optical_Phenomenon/blob/master/Bird_verses_fish.c" target="blank"><em>Bird_verses_fish</em></a>
 ---
