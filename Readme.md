@@ -19,3 +19,9 @@ the apparent separation, when provided with the real distances.
 ```
 
 ![](https://d10lpgp6xz60nq.cloudfront.net/physics_images/BMS_OBJ_XII_C08_E01_234_S01.png)
+
+### Here is a problem related to the topic:
+
+[*Bird_verses_fish*](https://github.com/Divya-Juhi-Singh/Optical_Phenomenon/blob/master/Bird_verses_fish.c)
+
+---
