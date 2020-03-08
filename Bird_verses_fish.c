@@ -1,59 +1,57 @@
-//Refraction at the interface of air and water causes optical illusion to the observer,
-//locating an object from the other side of the interface.
-//This program helps the observer to find out the apparent separation from the object where 
-//the true separations are user-defined.   
+/*
+/
+/  Refraction at the interface of air and water causes optical
+/  illusion to the observer, locating an object from the other
+/  side of the interface.
+/
+/  This program helps the observer to find out the apparent
+/  separation from the object where the true separations are
+/  user-defined.
+/
+*/
 
-#include<stdio.h>
+#include <stdio.h>
 
-int a, b;                  // 'a' is the depth of the fish
-                           // 'b' is the height of the bird from the surface
+float a,                    // depth of the fish
+      b,                    // height of the bird from the surface
+      n1 = 1.0,  n2 = 1.33, // refractive index of the medium
+      v1, v2,               // apparent distances
+      u;                    // real distance between object and observer
 
-float n1, n2, temp;        //'n1' & 'n2' are the refractive index of the given medium
-float v1, v2;              //'v1' and 'v2' are the apparent distances
-
-int u1, u2;                //'u1' and 'u2' are the real distance of the object from the observer
-
-
-   int main()
+int main(void)
 {
+    printf("Depth of the fish from the surface: ");
+    scanf("%d", &a);
+    printf("Height of the bird from the surface: ");
+    scanf("%d", &b);
+    u = a + b;// real separation between the object and the observer
 
- printf("Mention the depth of the fish from the surface\n");
- scanf("%d",&a);
- printf("Mention the height of the bird from the surface\n");
- scanf("%d",&b);
- printf("\n\n");
- u1 = a + b;               //'u'- real separation between the object and the observer is 
- u2 = a + b;               //     the sum of real distance (object from surface and observer from the surface)
+    //BIRD_LOCATES_FISH
 
- float n1 = 1.0;
- float n2 = 1.33;
-
- //BIRD_LOCATES_FISH
- {
- printf("Solution: In actual practice, the fish is at a separation of %d metres away from the bird.\n",u1);
+    printf("\n\nSolution:\n\
+     In reality, the fish is at a distance of %f m\n\
+     away from the bird.\n",u);
  
- float v1 = (n2/n1)*u1;           // formula used to calculate apparent distance
+    v1 = ( n2 / n1 ) * u; // formula for apparent distance
 
- printf("          The bird locates the fish at a depth of %.1f metres from itself.\n",v1);
+    printf("The bird locates the fish at a depth of %.2f m\n\
+     from itself.\n", v1);
  
- }
-      
- // FISH_LOCATES_BIRD
+    // FISH_LOCATES_BIRD
  
- temp = n1;
- { n1 = n2;
-   n2 = temp;
- printf("          In actual, the bird is a separation of %d metres from the fish.\n",u2);
+    printf("\n\
+     In reality, the bird is a distance of %f m\n\
+     away from the fish.\n", u);
 
- float v2 = (n2/n1)*u2;         //formula used to calculate apparent distance
+    v2 = ( n1 / n2 ) * u; // formula for apparent distance
 
- printf("          The fish locates the bird at a height of %.1f metres from itself.\n\n",v2);
+    printf("The fish locates the bird at a height of %.2f m\n\
+     from itself.\n", v2);
  
+    printf("\nConclusion:\n\
+     Bird locates a fish farther from the fish's real position\n\
+     while fish locates a bird nearer with respect to the\n\
+     bird's real position.\n");
  
- }
-
- printf("Conclusion: Bird locates a fish farther from the fish's real position\n");
- printf("            while fish locates a bird nearer with respect to the bird's real position.\n");
- 
- return 0;
+    return 0;
 }
