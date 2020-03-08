@@ -28,27 +28,29 @@ int main(void)
 
     //BIRD_LOCATES_FISH
 
-    printf("\n\nSolution:\n\
-     In reality, the fish is at a distance of %f m\n\
+    printf("\n\nSolution:\n\n\
+     In reality, the fish is at a distance of %.3f m\n\
      away from the bird.\n",u);
  
     v1 = ( n2 / n1 ) * u; // formula for apparent distance
 
-    printf("The bird locates the fish at a depth of %.2f m\n\
+    printf("\
+     The bird locates the fish at a depth of %.3f m\n\
      from itself.\n", v1);
  
     // FISH_LOCATES_BIRD
  
     printf("\n\
-     In reality, the bird is a distance of %f m\n\
+     In reality, the bird is a distance of %.3f m\n\
      away from the fish.\n", u);
 
     v2 = ( n1 / n2 ) * u; // formula for apparent distance
 
-    printf("The fish locates the bird at a height of %.2f m\n\
+    printf("\
+     The fish locates the bird at a height of %.3f m\n\
      from itself.\n", v2);
  
-    printf("\nConclusion:\n\
+    printf("\nConclusion:\n\n\
      Bird locates a fish farther from the fish's real position\n\
      while fish locates a bird nearer with respect to the\n\
      bird's real position.\n");
