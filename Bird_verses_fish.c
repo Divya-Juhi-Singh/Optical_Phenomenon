@@ -21,9 +21,9 @@ float a,                    // depth of the fish
 int main(void)
 {
     printf("Depth of the fish from the surface: ");
-    scanf("%d", &a);
+    scanf("%f", &a);
     printf("Height of the bird from the surface: ");
-    scanf("%d", &b);
+    scanf("%f", &b);
     u = a + b;// real separation between the object and the observer
 
     //BIRD_LOCATES_FISH
