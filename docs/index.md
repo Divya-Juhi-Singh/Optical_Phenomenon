@@ -40,5 +40,5 @@ Provided the refractive index of air is 1.00 and that of water is 1.33.
 
 ### Solution
 
-[Bird_verses_fish](../Bird_verses_fish.c)
+[Bird_verses_fish](BvF.c)
 
