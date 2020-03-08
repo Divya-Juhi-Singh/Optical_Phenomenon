@@ -16,12 +16,6 @@ int u1, u2;                //'u1' and 'u2' are the real distance of the object f
 
    int main()
 {
- printf("Problem: A fish is swimming at some depth from the surface of an ocean.\n");
- printf("         Straight-way above, a bird is flying  at some height from the surface.\n");
- printf("         \n ");
- printf("      i. At what total depth does the bird locates the fish, intending to catch it?\n");
- printf("     ii. At what total height does the fish locates the bird in order to escape?\n");
- printf("         Provided the refractive index of air is 1.00 and that of water is 1.33.\n\n");
 
  printf("Mention the depth of the fish from the surface\n");
  scanf("%d",&a);
