@@ -40,4 +40,4 @@ Provided the refractive index of air is 1.00 and that of water is 1.33.
 
 ### Solution
 
-[Bird vs Fish: C code](Bird_verses_fish.c)
+<a href="Bird_verses_fish.c" target="_blank">Bird vs Fish: C code</a>
